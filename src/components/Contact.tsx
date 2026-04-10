@@ -39,6 +39,13 @@ export default function Contact() {
           </div>
         </motion.div>
       </div>
+
+      <Footer 
+        theme="light" 
+        credits={[
+          { subject: 'Landscape photo', photographer: 'Joonas Miettunen' }
+        ]} 
+      />
     </motion.div>
   );
 }
