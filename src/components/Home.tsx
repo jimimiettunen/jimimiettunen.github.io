@@ -1,45 +1,63 @@
 import { motion } from 'motion/react';
 
-export default function Contact() {
+export default function Home() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="relative min-h-[calc(100vh-80px)] flex items-center justify-center"
+      className="bg-white text-gray-900"
     >
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      {/* Hero Section */}
+      <section className="relative h-[calc(100vh-80px)] w-full snap-section overflow-hidden bg-gray-100">
         <img 
-          src="https://lh3.googleusercontent.com/pw/AP1GczN4nPCp59wXWNAeGCXDkFUKy0Rux-mK7llOqnV9VBCsZ4D-H2k9uq8X0QiQqgSmbli_nNVBagoU6CgbBgW2hY8woBytR33DVfBl0htOkuWdawJNF-3mtPD2p4aredzTG59biGn7QbKoRxhbW-5Lh06lyNq8Nz16XOteeXSG1L8gvp1qOysVml077Rkkis05h1jfXAvmElb8r0lflsWmTywo3bLcxAOETK5YB4X24Y11SxxkKNuTk7zCpLyJx5FQkhmR_--UPJNnMf0qngmRVqz66BiWSmfDOOnajCnenKOOlOyZzqfON39tqJehh7s_3H9Br5MZTfETgSg8xWcSggAF_QhsvY-KCVUoJ8CxEIzGDQptOAxcbypu8eEo9QHaVccj-VasxlwSwUJ6ysAsTn_wSmOTFCbTkOOgRAWyNANR3-b6F002fOS-UXJAQaaE2E0dtZDwxcKYxPJ--ubvkEB3wI7zARzIl9ijCW7gpNa75GgEreI4BlOajPDjczHph7nJ6zoDbiK-bSZ-9Qxj8aV3TCVsnIu_UG0KCpqY5W23pwP0U9iesQQpcBqpVCvoFTEsZNMEVSmIsFEENWUBovP6D1YGBgwDcoRKuqMeHfVvyxpBAGAKmt3Wf1VgOXNowtWHgklUiRriU3wBYXuVN6t9o2GF-u9DxD6vUc-yUgi9JRXUuMJuhwSj1GMidvO2NASDD82Sp-MhcNhJsJ85VAFB8_aVTD811uzO7u62I98KVjwjNGLW4Gy1Ao6N0Jz13-lqDadDYsfvE1BBPb7gRUGqwBd0DjrUFbUkzfUhm-AM_Gvv1ZMae9AF0u4PXS7PV1smw1rcdUdrRAF3mxRsWhYRcWLiissjx8baODHzoeelrAKoB3yM9qK1tU0mshOCk8kkGTBDAaLfQHaG1ZCrD-y7fxtfYHk2E4XdVbIzoZZukmOnkH9N-DTijzlVpYRpzY3zjfK2O9E0l07awfP5wsvD=w2000-h1500-s-no?authuser=2" 
-          alt="Contact background" 
-          className="w-full h-full object-cover object-center"
+          src="https://lh3.googleusercontent.com/pw/AP1GczM6ElDKvA_pNxpo_KYzdmsndHo6SoWGMXiXdlE150qlhAvkYTERvgkc9zHDm-ANEJFa-uveAvKgB5iYUzhedLqVK3SdmPLNP-LFRcL0oll0JOAcf8stOV9kEk7VguohBF9shrEmqeKjYWbjFn-hFgsuoQOGTF8JEn2385VxSuvOH6bjLw197YzU7r-hhDXajxtM7qi8D-WoZvhZW_m0kVupY5NQrMAMI627ykOF_LYz_bK_iftcldNf6npO8H8C_eBLaZ3MTUW825NRyRiNMt_WdptL6xv5TijmiBLrxdkV9MwUJYFdi6FGjdBVldEMQFPnj4HJPctFGApgRWULo_FAi0va8rqywdkYDTtDyOxGtXHFPEkZdJCm91abV22_CG4yBiMp2s6ym37sHumns3F5UJe_N2yKO9fk607fpDwg1DWqou_1rwc6noO-Zptq3wiFo5FWq1jFZP02BgWASHZ73prs6clDMaNML2SJDNSSi8OwMnjK6KyyPMIwRm-JtrL-yUSrMuRyf6Q8PcDXfXAdlIfxxSaQovFaW16BQbBn0v844INEtbJ3ovyxgm25FygS6GQ2ulmbrcsYlLDSmqP0u0ZuWtcSxl4XHp8W-yIQCX0pKtbK30QoXdbDJFEOw6R6QWTCNW_qV1AE9aTecIcyV44KgRJUk1F5Dej-o_U5gyZyaSwE_zgsd1N7m88b_wcJrDPCI13dWHvYlWi7Ecsz6cn66AGv7yFguz9ZceBjR6gDZnXVRTeCmHtwPF70Mxk1Ciz4Km0jN2ZbbxjTpQI_5mRS28Gc5UyNbvCohlIZYD6ikfcBaE-PDj2tEdNWDeDV7aK6Ov3G79ufUcIim3mJIjwNkoNC_ggSUB2BmFw5mOIVFFHpe0BtVU3AbRFWHzDNutVicbAUtMGxL7ujdHoMCKxpHb-jJVl7HYHdsDJtXaucVKIHtCfUz27tgBEgo_-SCvhUgq5vHpZnhJno5SFikUnDsexcKYME7nfLlKG8pGUJ73-7W3nVd9EPEvRA9QpoWXDGSFS0qyAbTWPrY6Q_tYW801A=w2998-h2000-s-no?authuser=2" 
+          alt="Home background" 
+          className="absolute inset-0 w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
         />
-        {/* Dark overlay to ensure text readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
-      </div>
+        <div className="absolute inset-0 flex items-center justify-end px-8 md:px-24">
+          <motion.div 
+            initial={{ x: 50, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            className="text-right"
+          >
+            <h1 className="text-6xl md:text-9xl font-light text-gray-900 tracking-tighter mb-4">
+              Jimi<br/>Miettunen
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-800 font-light tracking-wide">
+              Portfolio
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="bg-black/70 backdrop-blur-sm p-12 rounded-2xl border border-white/10 shadow-2xl"
-        >
-          <h1 className="text-5xl md:text-7xl font-light text-white tracking-tighter mb-6">Contact me</h1>
-          <p className="text-xl text-gray-300 font-light max-w-2xl mx-auto mb-12">
-            I'm always open to discuss new projects, creative ideas and opportunities. I try to say 'no' to as few things as possible, life stays interesting that way.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <a href="https://www.linkedin.com/in/jimi-miettunen-41335a20b/" target="_blank" rel="noopener noreferrer" className="text-2xl font-light text-white hover:text-gray-300 transition-colors border-b border-white hover:border-gray-300 pb-1">
-              LinkedIn
-            </a>
-          </div>
-        </motion.div>
-      </div>
+      {/* About Section */}
+      <section className="min-h-[50vh] flex items-start justify-center pt-16 pb-24 px-8 md:px-24 snap-section bg-white">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true, margin: "100px" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+          >
+            <h2 className="text-sm font-bold tracking-widest uppercase text-gray-400 mb-12">About Me</h2>
+            <div className="space-y-10 text-3xl md:text-4xl lg:text-5xl font-light leading-tight text-gray-900">
+              <p>
+                I am Jimi Miettunen. I made this website to capture and document my various and expanding interests. It shall work as an archive for myself to look back to what all I have done.
+              </p>
+              <p>
+                I'm sure the photos I've chosen tell much more than words ever could, yet here we go. I'm very outgoing and addicted to consuming new skills and information to learn.
+              </p>
+              <p>
+                I'm a strong believer in lifelong learning and always trying to improve, of course with consideration in mind. That means the website is a work in progress and hopefully will get many more interesting updates from my journeys.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
     </motion.div>
   );
 }
