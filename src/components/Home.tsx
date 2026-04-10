@@ -57,6 +57,13 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      <Footer 
+        theme="light" 
+        credits={[
+          { subject: 'Homepage Portrait', photographer: 'Anne Karvonen' }
+        ]} 
+      />
     </motion.div>
   );
 }
