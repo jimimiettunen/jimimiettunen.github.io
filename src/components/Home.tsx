@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-80px)] w-full snap-section overflow-hidden bg-gray-100">
         <img 
-          src="/images/homepage.jpeg"
+          src="/public/images/homepage.jpeg"
           alt="Home background" 
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
