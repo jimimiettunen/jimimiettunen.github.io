@@ -12,10 +12,9 @@ export default function Contact() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://lh3.googleusercontent.com/pw/AP1GczN4nPCp59wXWNAeGCXDkFUKy0Rux-mK7llOqnV9VBCsZ4D-H2k9uq8X0QiQqgSmbli_nNVBagoU6CgbBgW2hY8woBytR33DVfBl0htOkuWdawJNF-3mtPD2p4aredzTG59biGn7QbKoRxhbW-5Lh06lyNq8Nz16XOteeXSG1L8gvp1qOysVml077Rkkis05h1jfXAvmElb8r0lflsWmTywo3bLcxAOETK5YB4X24Y11SxxkKNuTk7zCpLyJx5FQkhmR_--UPJNnMf0qngmRVqz66BiWSmfDOOnajCnenKOOlOyZzqfON39tqJehh7s_3H9Br5MZTfETgSg8xWcSggAF_QhsvY-KCVUoJ8CxEIzGDQptOAxcbypu8eEo9QHaVccj-VasxlwSwUJ6ysAsTn_wSmOTFCbTkOOgRAWyNANR3-b6F002fOS-UXJAQaaE2E0dtZDwxcKYxPJ--ubvkEB3wI7zARzIl9ijCW7gpNa75GgEreI4BlOajPDjczHph7nJ6zoDbiK-bSZ-9Qxj8aV3TCVsnIu_UG0KCpqY5W23pwP0U9iesQQpcBqpVCvoFTEsZNMEVSmIsFEENWUBovP6D1YGBgwDcoRKuqMeHfVvyxpBAGAKmt3Wf1VgOXNowtWHgklUiRriU3wBYXuVN6t9o2GF-u9DxD6vUc-yUgi9JRXUuMJuhwSj1GMidvO2NASDD82Sp-MhcNhJsJ85VAFB8_aVTD811uzO7u62I98KVjwjNGLW4Gy1Ao6N0Jz13-lqDadDYsfvE1BBPb7gRUGqwBd0DjrUFbUkzfUhm-AM_Gvv1ZMae9AF0u4PXS7PV1smw1rcdUdrRAF3mxRsWhYRcWLiissjx8baODHzoeelrAKoB3yM9qK1tU0mshOCk8kkGTBDAaLfQHaG1ZCrD-y7fxtfYHk2E4XdVbIzoZZukmOnkH9N-DTijzlVpYRpzY3zjfK2O9E0l07awfP5wsvD=w2000-h1500-s-no?authuser=2" 
+          src="/images/contactpage.jpg"
           alt="Contact background" 
           className="w-full h-full object-cover object-center"
-          referrerPolicy="no-referrer"
         />
         {/* Dark overlay to ensure text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
