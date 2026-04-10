@@ -1,5 +1,8 @@
-{
-  "name": "Jimi Miettunen Portfolio",
-  "description": "Minimalist portfolio website for Jimi Miettunen featuring projects, art, and experience.",
-  "requestFramePermissions": []
-}
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: '/', // If deploying to a subpath like /jimimiettunen.github.io/, change this to '/your-repo-name/'
+})
