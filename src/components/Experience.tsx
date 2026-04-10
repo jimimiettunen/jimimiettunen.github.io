@@ -173,7 +173,8 @@ export default function Experience() {
           { subject: 'F-18 portrait', photographer: 'Anne Karvonen' },
           { subject: 'Electrical circuit', photographer: 'AI generated, Gemini 3.1 Pro Preview' },
           { subject: 'Chalk board', photographer: 'Jimi Miettunen' },
-          { subject: 'Graduated Jimi', photographer: 'Kiia Miettunen' }
+          { subject: 'Graduated Jimi', photographer: 'Kiia Miettunen' },
+          { subject: 'Background', photographer: "Brian Chirio'}
         ]} 
       />
     </motion.div>
