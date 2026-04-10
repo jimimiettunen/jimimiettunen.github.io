@@ -163,6 +163,18 @@ export default function Experience() {
           ))}
         </div>
       </div>
+
+      <Footer 
+        theme="dark" 
+        credits={[
+          { subject: 'Orange robot', photographer: 'Jimi Miettunen' },
+          { subject: 'HUS selfie', photographer: 'Jimi Miettunen' },
+          { subject: 'F-18 portrait', photographer: 'Anne Karvonen' },
+          { subject: 'Electrical circuit', photographer: 'AI generated, Gemini 3.1 Pro Preview' },
+          { subject: 'Chalk board', photographer: 'Jimi Miettunen' },
+          { subject: 'Graduated Jimi', photographer: 'Kiia Miettunen' }
+        ]} 
+      />
     </motion.div>
   );
 }
