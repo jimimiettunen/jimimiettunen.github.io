@@ -12,10 +12,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-80px)] w-full snap-section overflow-hidden bg-gray-100">
         <img 
-          src="https://lh3.googleusercontent.com/pw/AP1GczM6ElDKvA_pNxpo_KYzdmsndHo6SoWGMXiXdlE150qlhAvkYTERvgkc9zHDm-ANEJFa-uveAvKgB5iYUzhedLqVK3SdmPLNP-LFRcL0oll0JOAcf8stOV9kEk7VguohBF9shrEmqeKjYWbjFn-hFgsuoQOGTF8JEn2385VxSuvOH6bjLw197YzU7r-hhDXajxtM7qi8D-WoZvhZW_m0kVupY5NQrMAMI627ykOF_LYz_bK_iftcldNf6npO8H8C_eBLaZ3MTUW825NRyRiNMt_WdptL6xv5TijmiBLrxdkV9MwUJYFdi6FGjdBVldEMQFPnj4HJPctFGApgRWULo_FAi0va8rqywdkYDTtDyOxGtXHFPEkZdJCm91abV22_CG4yBiMp2s6ym37sHumns3F5UJe_N2yKO9fk607fpDwg1DWqou_1rwc6noO-Zptq3wiFo5FWq1jFZP02BgWASHZ73prs6clDMaNML2SJDNSSi8OwMnjK6KyyPMIwRm-JtrL-yUSrMuRyf6Q8PcDXfXAdlIfxxSaQovFaW16BQbBn0v844INEtbJ3ovyxgm25FygS6GQ2ulmbrcsYlLDSmqP0u0ZuWtcSxl4XHp8W-yIQCX0pKtbK30QoXdbDJFEOw6R6QWTCNW_qV1AE9aTecIcyV44KgRJUk1F5Dej-o_U5gyZyaSwE_zgsd1N7m88b_wcJrDPCI13dWHvYlWi7Ecsz6cn66AGv7yFguz9ZceBjR6gDZnXVRTeCmHtwPF70Mxk1Ciz4Km0jN2ZbbxjTpQI_5mRS28Gc5UyNbvCohlIZYD6ikfcBaE-PDj2tEdNWDeDV7aK6Ov3G79ufUcIim3mJIjwNkoNC_ggSUB2BmFw5mOIVFFHpe0BtVU3AbRFWHzDNutVicbAUtMGxL7ujdHoMCKxpHb-jJVl7HYHdsDJtXaucVKIHtCfUz27tgBEgo_-SCvhUgq5vHpZnhJno5SFikUnDsexcKYME7nfLlKG8pGUJ73-7W3nVd9EPEvRA9QpoWXDGSFS0qyAbTWPrY6Q_tYW801A=w2998-h2000-s-no?authuser=2" 
+          src="/images/homepage.jpeg"
           alt="Home background" 
           className="absolute inset-0 w-full h-full object-cover object-center"
-          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 flex items-center justify-end px-8 md:px-24">
           <motion.div 
