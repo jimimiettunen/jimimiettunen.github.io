@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import Footer from './Footer';
 
 export default function Home() {
   return (
