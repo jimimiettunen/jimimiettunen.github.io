@@ -8,6 +8,7 @@ import ExtraCurriculum from './components/ExtraCurriculum';
 import Art from './components/Art';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export type Page = 'Home' | 'Technical Projects' | 'Hands-on Projects' | 'Art' | 'Extra Curriculum' | 'Experience' | 'Contact me';
 
