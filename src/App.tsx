@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { AnimatePresence } from 'motion/react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-//import TechnicalProjects from './components/TechnicalProjects';
-//import HandsOnProjects from './components/HandsOnProjects';
-//import ExtraCurriculum from './components/ExtraCurriculum';
-//import Art from './components/Art';
-//import Experience from './components/Experience';
-//import Contact from './components/Contact';
+import TechnicalProjects from './components/TechnicalProjects';
+import HandsOnProjects from './components/HandsOnProjects';
+import ExtraCurriculum from './components/ExtraCurriculum';
+import Art from './components/Art';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 export type Page = 'Home' | 'Technical Projects' | 'Hands-on Projects' | 'Art' | 'Extra Curriculum' | 'Experience' | 'Contact me';
 
